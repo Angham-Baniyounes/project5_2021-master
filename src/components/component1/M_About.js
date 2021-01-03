@@ -17,7 +17,7 @@ function M_About (){
                 <div className="content second-content">
                     <div className="row">
                       <div className="col-md-7 left-image">
-                        <img src="https://images.pexels.com/photos/5920741/pexels-photo-5920741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                        <img src="https://images.pexels.com/photos/5920741/pexels-photo-5920741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="burger image"/>
                       </div>
                       <div className="col-md-5">
                         <div className="right-about-text">
@@ -52,7 +52,7 @@ function M_About (){
                         </div>
                       </div>
                       <div className="col-md-5 right-image">
-                        <img src={IMG} />
+                        <img src={IMG} alt="why burger tag"/>
                       </div>
                     </div>
                     {/* <br/> */}
